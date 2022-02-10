@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* text-align: center; would have stopped needing to flex and justify-content at title and text) AND text-align also centers graphics too*/
 }
 
 img {
@@ -10,6 +11,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /* added */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+/* added */
+.graphics {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.graphics .each {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.graphics .each .text {
+  text-align: center;
 }
 
 /* do not edit this footer */
