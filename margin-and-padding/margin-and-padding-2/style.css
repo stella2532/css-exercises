@@ -7,21 +7,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
+  /*display: inline-block;
+  width: 368px;
+  height: 100 px; not needed since we just need text-align*/
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  /*margin: 0px 8px; not needed since we have padding in card*/
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
